@@ -1,3 +1,4 @@
+import abtimg from '../assets/images/all5g.jpg'
 const About = () => {
   return (
     <div className="bg-white min-h-screen py-12">
@@ -29,9 +30,9 @@ const About = () => {
           </div>
           <div className="relative">
             <img
-              src="/images/about-spices.jpg"
+              src={abtimg}
               alt="About our spices"
-              className="w-full rounded-lg shadow-lg"
+              className="w-34 h-34 rounded-lg shadow-lg"
             />
             <div className="mt-6 bg-black text-gold-400 p-6 rounded-lg">
               <h3 className="text-xl font-bold mb-2">Business Overview</h3>
