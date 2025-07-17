@@ -2,7 +2,7 @@ export const products = [
   {
     id: 1,
     name: 'Palm Kernel Oil',
-    price: 24.50,
+    price: 2.50,
     image: '/src/assets/images/palmkoil.jpg',
     description: 'Pure ginger powder with intense flavor and maximum health benefits.',
     healthBenefits: [
@@ -28,7 +28,7 @@ export const products = [
   {
     id: 3,
     name: 'Organic Turmeric Powder',
-    price: 24.50,
+    price: 2.50,
     image: '/src/assets/images/tum.jpg',
     description: 'Golden Spice for Health and Flavor : Bright yellow, aromatic turmeric powder packed with curcumin—perfect for cooking, boosting immunity, and relieving inflammation the natural way.',
     healthBenefits: [
@@ -41,7 +41,7 @@ export const products = [
   {
     id: 4,
     name: 'Aidan Fruit (Prekese) & Ginger Blend',
-    price: 24.50,
+    price: 2.50,
     image: '/src/assets/images/prekaidin.jpg',
     description: 'Spice, Strength, and Healing in One Scoop: A powerful combination of Aidan fruit and ginger. Traditionally used to enhance flavor and support respiratory, digestive, and immune health. Ideal for soups and herbal drinks.',
     healthBenefits: [
@@ -54,7 +54,7 @@ export const products = [
   {
     id: 5,
     name: 'Natural Dawadawa (Locust Beans)',
-    price: 24.50,
+    price: 2.50,
     image: '/src/assets/images/dawa.jpg',
     description: 'The Heart of Traditional Flavor : 100% natural fermented locust bean seasoning, rich in protein and essential nutrients. Ideal for soups, sauces, and traditional dishes.',
     healthBenefits: [
@@ -67,7 +67,7 @@ export const products = [
   {
     id: 6,
     name: 'Dried Turkey Berries (Abedudru)',
-    price: 24.50,
+    price: 2.50,
     image: '/src/assets/images/turk.jpg',
     description: 'Tiny Berries, Mighty Benefits : Naturally dried and preserved turkey berries packed with iron, antioxidants, and immune-boosting properties. Perfect for soups, stews, and herbal remedies.',
     healthBenefits: [
