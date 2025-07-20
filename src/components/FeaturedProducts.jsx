@@ -1,5 +1,6 @@
 import ProductCard from './ProductCard';
 import { products } from '../data/products';
+import { Link } from 'react-router-dom';
 
 const FeaturedProducts = () => {
   return (
@@ -21,12 +22,12 @@ const FeaturedProducts = () => {
         </div>
 
         <div className="mt-10 text-center">
-          <a
-            href="/products"
+          <Link
+           to="/products"
             className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gold-600 hover:bg-gold-700"
           >
             View All Products
-          </a>
+          </Link>
         </div>
       </div>
     </section>

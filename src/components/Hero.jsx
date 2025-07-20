@@ -1,5 +1,6 @@
-// import heroSpices from "../assets/images/hero-spices.png";
-import herovideo from "../assets/images/hero.mp4";
+import heroim from "../assets/images/pke.png";
+// import herovideo from "../assets/images/hero2.mp4";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -19,20 +20,20 @@ const Hero = () => {
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
-                  <a
-                    href="/products"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-black bg-gold-500 hover:bg-gold-600 md:py-4 md:text-lg md:px-10"
+                  <Link
+                    to="/products"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-black bg-gold-500 hover:bg-gold-700 md:py-4 md:text-lg md:px-10"
                   >
                     Shop Now
-                  </a>
+                  </Link>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
-                  <a
-                    href="/about"
+                  <Link
+                    to="/about"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-gold-500 bg-black hover:bg-gray-800 md:py-4 md:text-lg md:px-10"
                   >
                     Learn More
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -40,9 +41,9 @@ const Hero = () => {
         </div>
       </div>
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-[50%]">
-        <video
-          className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src={herovideo}
+        <img
+          className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full "
+          src={heroim}
           alt="Assortment of spices"
           autoPlay
           loop
