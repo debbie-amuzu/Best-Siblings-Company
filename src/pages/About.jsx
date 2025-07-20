@@ -1,4 +1,6 @@
-import abtimg from '../assets/images/all5g.jpg'
+// import abtimg from '../../assets/images/all5g.jpg';
+const abtimg = "/images/all5g.jpg";
+
 const About = () => {
   return (
     <div className="bg-white min-h-screen py-12">
