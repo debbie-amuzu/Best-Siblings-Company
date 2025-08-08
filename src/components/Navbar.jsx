@@ -173,12 +173,12 @@ const Navbar = () => {
     <nav className="bg-gold-500/90  backdrop-blur-sm text-gold-500 shadow-lg sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center ">
-          <div className="flex items-center gap-8">
+          <div className="flex items-center gap-2">
 {/* Logo */}
          
                <img
                  src={logo}
-                className="h-[70px]  w-auto object-contain"
+                className="h-[64px]  w-auto object-contain rounded-full p-1"
                 alt="Company Logo"
                />
           <div className="flex-shrink-0  ">
